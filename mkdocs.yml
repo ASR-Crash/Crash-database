@@ -6,7 +6,7 @@ nav:
     - you-get: you-get-usage.md
     - FFmpeg: FFmpeg-usage.md
     - Selenium: Selenium-usage.md
-    - Mkdocs: Mkdocs-usage.md
+    - MkDocs: MkDocs-usage.md
 - Configuration:
     - pip3: pip3-configuration.md
     - WSL: WSL-configuration.md
