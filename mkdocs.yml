@@ -1,0 +1,15 @@
+site_name: Crash database
+site_favicon: ASR.ico
+nav:
+- Tools: 
+    - Git: Git-usage.md
+    - you-get: you-get-usage.md
+    - FFmpeg: FFmpeg-usage.md
+    - Selenium: Selenium-usage.md
+    - Mkdocs: Mkdocs-usage.md
+- Configuration:
+    - pip3: pip3-configuration.md
+    - WSL: WSL-configuration.md
+    - Cmder: Cmder-configuration.md
+theme: readthedocs
+copyright: Copyright© 2020 ASR-Crash
