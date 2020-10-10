@@ -58,3 +58,7 @@
 > warning: LF will be replaced by CRLF
 
 		git config --global core.autocrlf false
+
+> fatal: The current branch master has no upstream branch
+
+		git push -u origin master
