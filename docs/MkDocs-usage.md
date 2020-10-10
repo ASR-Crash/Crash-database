@@ -13,6 +13,7 @@
 		mkdocs new [dir-name] # Create a new project.
 		mkdocs serve  		  # Start local server.
 		mkdocs build		  # Build document site.
+		mkdocs gh-deploy      # Deploy HTML in gh-pages
 
 > Layout
 
