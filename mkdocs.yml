@@ -12,5 +12,7 @@ nav:
     - pip3: pip3-configuration.md
     - WSL: WSL-configuration.md
     - Cmder: Cmder-configuration.md
+- Textbook:
+    - Recommended Engineering Textbook: Recommended Engineering Textbook.md
 theme: readthedocs
 copyright: Copyright© 2020 ASR-Crash

@@ -15,5 +15,9 @@
 - [WSL](WSL-configuration.md)
 - [Cmder](Cmder-configuration.md)
 
+## Textbook
+
+- [Recommended Engineering Textbook](Recommended Engineering Textbook.md)
+
 ---
 ![Crash logo special](logo\Crash logo special.png)
