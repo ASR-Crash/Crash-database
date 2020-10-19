@@ -1,4 +1,4 @@
-site_name: Crash database <img src="https://cdn.img.wenhairu.com/images/2020/10/11/CkiRP.png">
+site_name: ASR Crash database <img src="https://cdn.img.wenhairu.com/images/2020/10/11/CkiRP.png">
 site_favicon: ASR.ico
 nav:
 - Tools: 
@@ -7,6 +7,7 @@ nav:
     - FFmpeg: FFmpeg-usage.md
     - Selenium: Selenium-usage.md
     - MkDocs: MkDocs-usage.md
+    - cmd: cmd-usage.md
 - Configuration:
     - pip3: pip3-configuration.md
     - WSL: WSL-configuration.md
