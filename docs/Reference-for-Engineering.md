@@ -6,7 +6,7 @@
 | ------------------------------------------------------------ | ------------------------------------------------ | -------------------- |
 | [Fundamentals of Electric Circuits](Fundamentals of Electric Circuits.pdf) | 电路基础 |Charles K.Alexander|
 | [Signal and Power Integrity - Simplified](Signal and Power Integrity-Simplified.pdf) | 信号完整性与电源完整性分析                       | Eric Bogatin         |
-| [Principles of Power Integrity for PDN Design - Simplified: Robust and Cost Effective Design for High Speed Digital Products](Principles of power integrity for PDN design -- simplified robust and cost effective design for high speed digital products.epub) | PDN设计之电源完整性:高速数字产品的鲁棒和高效设计 | Larry D.Smith        |
+| [Principles of Power Integrity for PDN Design - Simplified: Robust and Cost Effective Design for High Speed Digital Products](Principles of power integrity for PDN design -- simplified robust and cost effective design for high speed digital products.pdf) | PDN设计之电源完整性:高速数字产品的鲁棒和高效设计 | Larry D.Smith        |
 | High Speed Digital Design - A Handbood of Black Magic        | [高速数字设计](高速数字设计.pdf)                       | Howard Johnson       |
 | PCB Currents How They Flow,How They React                    | [PCB电流与信号完整性设计](PCB电流与信号完整性设计.pdf)      | Doulas Brooks        |
 | [Printed Circuits Handbook](Printed Circuits Handbook.pdf)   | 印制电路手册                                     | Clyde F. Coombs      |
