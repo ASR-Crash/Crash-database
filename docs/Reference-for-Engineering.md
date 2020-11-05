@@ -13,7 +13,7 @@
 | [Analog Circuit Design, Volumn 1 – A Tutorial Guide to Applications and Solutions](Analog Circuit Design Volume 1 - A tutorial guide to applications and solutions.pdf) | 模拟电路设计手册：应用及解决方案指南             | Bob Dobkin           |
 | [Analog Circuit Design, Volume 2 – Immersion in the Black Art of Analog Design](Analog Circuit Design Volume 2 - Immersion in the Black Art of Analog Design.pdf) | 模拟电路设计手册：晋级应用指南                   | Bob Dobkin           |
 | [Analog Circuit Design, Volume 3 – Design Note Collection](Analog Circuit Design Volume 3 - Design Note Collection.pdf) | 模拟电路设计手册：设计笔记集锦                   | Bob Dobkin           |
-| System level ESD protection                                  | 系统与芯片ESD防护的协同设计                      | Vladislav Vashchenko |
+| System level ESD protection                                  | [系统与芯片ESD防护的协同设计](系统与芯片ESD防护的协同设计.pdf) | Vladislav Vashchenko |
 
 ## 数字信号处理
 
@@ -51,3 +51,11 @@
 | [Deep Learning](https://www.deeplearningbook.org/)           | [深度学习](深度学习.pdf)                     | Ian Goodfellow  |
 | [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com) | [神经网络与深度学习](神经网络与深度学习.pdf) | Michael Nielsen |
 
+## 光学
+
+| 英文                              | 中文             | 作者                |
+| --------------------------------- | ---------------- | ------------------- |
+| Optics                            | 光学             | Ajoy Ghatak         |
+| Optics                            | 光学             | Eugene Hecht        |
+| Principles of Optics              | 光学原理         | Max Born            |
+| Field Guide to Geometrical Optics | 几何光学领域指南 | John E. Greivenkamp |
