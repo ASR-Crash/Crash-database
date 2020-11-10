@@ -15,6 +15,14 @@
 | [Analog Circuit Design, Volume 3 – Design Note Collection](Analog Circuit Design Volume 3 - Design Note Collection.pdf) | 模拟电路设计手册：设计笔记集锦                   | Bob Dobkin           |
 | System level ESD protection                                  | [系统与芯片ESD防护的协同设计](系统与芯片ESD防护的协同设计.pdf) | Vladislav Vashchenko |
 
+## 电源设计
+
+| 英文                                                         | 中文             | 作者              |
+| ------------------------------------------------------------ | ---------------- | ----------------- |
+| Fundamentals of Power Supply Design                          | 电源设计基础     | Robert A. Mammano |
+| [Switching Power Supplies A–Z](Switching Power Supplies A–Z.pdf) | 精通开关电源设计 | Sanjaya Maniktala |
+| [Switching Power Supply Design](Switching Power Supply Design.pdf) | 开关电源设计     | Abraham Pressman  |
+
 ## 数字信号处理
 
 | 英文                                                         | 中文                          | 作者             |
