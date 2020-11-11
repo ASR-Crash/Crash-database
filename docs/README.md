@@ -7,6 +7,7 @@
 - [Git](Git-usage.md)
 - [MkDocs](MkDocs-usage.md)
 - [Markdown](Markdown-usage.md)
+- [PowerToys](PowerToys.md)
 - [Selenium](Selenium-usage.md)
 - [you-get](you-get-usage.md)
 
