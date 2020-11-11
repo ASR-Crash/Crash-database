@@ -18,6 +18,6 @@
 
 ---
 
-Github: https://github.com/microsoft/PowerToys
+Github: [https://github.com/microsoft/PowerToys](https://github.com/microsoft/PowerToys)
 
 Download:  [PowerToysSetup-0.25.0-x64.exe](PowerToysSetup-0.25.0-x64.exe) 
