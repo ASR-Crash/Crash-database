@@ -18,6 +18,60 @@
 		行间公式：$$···$$
 		行内公式：$···$
 
+## 数学符号
+
+> 希腊字母
+
+
+| No.  | Lowercase  | Uppercase  |  English  |
+| -- | -------- | -------- | ------- |
+| $1$  |  $\alpha$  |    $A$     |  $alpha$  |
+| $2$  |  $\beta$   |    $B$     |  $beta$   |
+| $3$  |  $\gamma$  |  $\Gamma$  |  $gamma$  |
+| $4$  |  $\delta$  |  $\Delta$  |  $delta$  |
+| $5$  | $\epsilon$ |    $E$     | $epsilon$ |
+| $6$  |  $\zeta$   |    $Z$     |  $zeta$   |
+| $7$  |   $\eta$   |    $H$     |   $eta$   |
+| $8$  |  $\theta$  |  $\Theta$  |  $theta$  |
+| $9$  |  $\iota$   |    $I$     |  $iota$   |
+| $10$ |  $\kappa$  |    $K$     |  $kappa$  |
+| $11$ | $\lambda$  | $\lambda$  | $lambda$  |
+| $12$ |   $\mu$    |    $M$     |   $mu$    |
+| $13$ |   $\nu$    |    $N$     |   $nu$    |
+| $14$ |   $\xi$    |   $\Xi$    |   $xi$    |
+| $15$ | $\omicron$ |    $O$     | $omicron$ |
+| $16$ |   $\pi$    |   $\Pi$    |   $pi$    |
+| $17$ |   $\rho$   |    $P$     |   $rho$   |
+| $18$ |  $\sigma$  |  $\Sigma$  |  $sigma$  |
+| $19$ |   $\tau$   |    $T$     |   $tau$   |
+| $20$ | $\upsilon$ | $\Upsilon$ | $upsilon$ |
+| $21$ |   $\phi$   |   $\Phi$   |   $phi$   |
+| $22$ |   $\chi$   |    $X$     |   $chi$   |
+| $23$ |   $\psi$   |   $\Psi$   |   $psi$   |
+| $24$ |  $\omega$  |  $\Omega$  |  $omega$  |
+
+> 关系运算符
+
+| symbol | code    |
+| ------ | ------- |
+| ±      | \pm     |
+| ×      | \times  |
+| ÷      | \div    |
+| ∣      | \mid    |
+| ∤      | \nmid   |
+| ⋅      | \cdot   |
+| ∗      | \ast    |
+| ≤      | \leq    |
+| ≥      | \geq    |
+| ≠      | \neq    |
+| ≈      | \approx |
+| ≡      | \equiv  |
+| ∑      | \sum    |
+| ∏      | \prod   |
+
+
+
+
 
 ## 图片超链接
 
