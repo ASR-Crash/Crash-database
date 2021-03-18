@@ -1,5 +1,7 @@
 # Windows Subsystem for Linux
 
+# Part A 安装WSL
+
 ## 选择开发人员模式
 
 ![WSL-developermode](WSL-developermode.png)
@@ -46,3 +48,35 @@ deb https://mirrors.ustc.edu.cn/ubuntu/ xenial-security main restricted universe
 卸载盘符：
 
 		sudo umount /mnt/e
+
+---
+
+# PART B 安装图形化界面
+
+1、安装xfce4
+
+```
+sudo apt install xfce4 xfce4-terminal
+```
+
+2、安装VcXsrv
+
+https://sourceforge.net/projects/vcxsrv/
+
+3、启动VcXsrv
+
+![](WSL-picture1.png)
+
+![](WSL-picture2.png)
+
+4、启动Ubuntu
+
+	export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+
+```bash
+startxfce4
+```
+
+5、Done
+
+![](WSL-picture3.png)
