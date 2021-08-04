@@ -5,6 +5,7 @@
 - [cmd](cmd-usage.md)
 - [FFmpeg](FFmpeg-usage.md)
 - [Git](Git-usage.md)
+- [HTML](html-usage.md)
 - [MkDocs](MkDocs-usage.md)
 - [Markdown](Markdown-usage.md)
 - [PowerToys](PowerToys.md)

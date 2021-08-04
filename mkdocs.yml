@@ -5,6 +5,7 @@ nav:
     - cmd: cmd-usage.md
     - FFmpeg: FFmpeg-usage.md
     - Git: Git-usage.md
+    - HTML: html-usage.md
     - Markdown: Markdown-usage.md
     - MkDocs: MkDocs-usage.md
     - PowerToys: PowerToys.md
@@ -14,6 +15,7 @@ nav:
 - Configuration:
     - Cmder: Cmder-configuration.md
     - pip3: pip3-configuration.md
+    - SSH: SSH-configuration.md
     - WSL: WSL-configuration.md
 
 - Textbook:

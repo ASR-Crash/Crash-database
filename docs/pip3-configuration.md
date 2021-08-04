@@ -5,11 +5,11 @@ Windows
 
 https://bootstrap.pypa.io/get-pip.py
 
-文本另存为get_pip.py： [get_pip.py](get_pip.py) 
+文本另存为get_pip.py： [get-pip.py](get-pip.py) 
 
 cmd执行：
 
-		python get_pip.py
+		python get-pip.py
 
 Linux
 ----

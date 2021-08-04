@@ -62,26 +62,27 @@
 
 > 关系运算符
 
-| symbol | code    |
-| ------ | ------- |
-| ±      | \pm     |
-| ×      | \times  |
-| ÷      | \div    |
-| ∣      | \mid    |
-| ∤      | \nmid   |
-| ⋅      | \cdot   |
-| ∗      | \ast    |
-| ≤      | \leq    |
-| ≥      | \geq    |
-| ≠      | \neq    |
-| ≈      | \approx |
-| ≡      | \equiv  |
-| ∑      | \sum    |
-| ∏      | \prod   |
-
-
-
-
+| symbol | code       |
+| ------ | ---------- |
+| ±      | \pm        |
+| ×      | \times     |
+| ÷      | \div       |
+| ∣      | \mid       |
+| ∤      | \nmid      |
+| ⋅      | \cdot      |
+| ∗      | \ast       |
+| ≤      | \leq       |
+| ≥      | \geq       |
+| ≠      | \neq       |
+| ≈      | \approx    |
+| ≡      | \equiv     |
+| ∑      | \sum       |
+| ∏      | \prod      |
+| ≜      | \triangleq |
+| ⇔      | \iff       |
+| ≌      | \cong      |
+|        | \vec a     |
+|        |            |
 
 ## 图片超链接
 
@@ -117,3 +118,12 @@
 			    </td><···>
 			</tr>
 		</table>
+
+## 上下划线
+
+		$\underline{\text{下划线}}$
+		<u>下划线</u>
+
+
+		$\overline{\text{上划线}}$
+

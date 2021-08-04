@@ -1,6 +1,6 @@
 # Reference for Engineering
 
-## 电路设计
+## 电路
 
 | 英文                                                         | 中文                                             | 作者                 |
 | ------------------------------------------------------------ | ------------------------------------------------ | -------------------- |
@@ -15,7 +15,7 @@
 | [Analog Circuit Design, Volume 3 – Design Note Collection](Analog Circuit Design Volume 3 - Design Note Collection.pdf) | 模拟电路设计手册：设计笔记集锦                   | Bob Dobkin           |
 | System level ESD protection                                  | [系统与芯片ESD防护的协同设计](系统与芯片ESD防护的协同设计.pdf) | Vladislav Vashchenko |
 
-## 电源设计
+## 电源
 
 | 英文                                                         | 中文             | 作者              |
 | ------------------------------------------------------------ | ---------------- | ----------------- |
@@ -23,28 +23,32 @@
 | [Switching Power Supplies A–Z](Switching Power Supplies A–Z.pdf) | 精通开关电源设计 | Sanjaya Maniktala |
 | [Switching Power Supply Design](Switching Power Supply Design.pdf) | 开关电源设计     | Abraham Pressman  |
 
-## 数字信号处理
+## 信号
 
-| 英文                                                         | 中文                          | 作者             |
-| ------------------------------------------------------------ | ----------------------------- | ---------------- |
-| [The Scientist and Enginee's Guide to Digital Signal Processing](The Scientist and Enginee's Guide to Digital Signal Processing.pdf) | 实用数字信号处理:从原理到应用 | Steven W. Smith  |
-| Understanding Digitalsignal Processing                       | 数字信号处理                  | R. Lyons         |
-| Digital Signal Processing                                    | 数字信号处理                  | John G.Proakis   |
-| Discrete-TimeSignal Processing                               | 离散时间信号处理              | Alan V.Oppenheim |
+| 英文                                                         | 中文                          | 作者              |
+| ------------------------------------------------------------ | ----------------------------- | ----------------- |
+| [The Scientist and Enginee's Guide to Digital Signal Processing](The Scientist and Enginee's Guide to Digital Signal Processing.pdf) | 实用数字信号处理:从原理到应用 | Steven W. Smith   |
+| Understanding Digitalsignal Processing                       | 数字信号处理                  | R. Lyons          |
+| Digital Signal Processing                                    | 数字信号处理                  | John G.Proakis    |
+| Discrete-TimeSignal Processing                               | 离散时间信号处理              | Alan V. Oppenheim |
+| Signals  and Systems                                         | 信号与系统                    | Alan V. Oppenheim |
 
-## 通信原理
+## 通信
 
-| 英文                                                         | 中文         | 作者              |
-| ------------------------------------------------------------ | ------------ | ----------------- |
-| Wireless Communication                                       | 无线通信     | Andrea Goldsmith  |
-| [Fundamentals of Wireless Communication](Fundamentals of Wireless Communication.pdf) | 无线通信基础 | David Tse         |
-| Principles of Digital Communication                          | 数字通信原理 | Robert G.Gallager |
+| 英文                                                         | 中文                 | 作者               |
+| ------------------------------------------------------------ | -------------------- | ------------------ |
+| Wireless Communication                                       | 无线通信             | Andrea Goldsmith   |
+| [Fundamentals of Wireless Communication](Fundamentals of Wireless Communication.pdf) | 无线通信基础         | David Tse          |
+| Principles of Digital Communication                          | 数字通信原理         | Robert G.Gallager  |
+| Electronic Communications A Systems Approach                 | 现代电子通信系统方法 | Jeffrey S. Beasley |
+| Modern Electronic Communication                              | 现代电子通信         | Jeffrey S. Beasley |
 
-## 微波技术
+## 电磁
 
-| 英文                  | 中文     | 作者           |
-| --------------------- | -------- | -------------- |
-| Microwave Engineering | 微波工程 | David M. Pozar |
+| 英文                                          | 中文         | 作者            |
+| --------------------------------------------- | ------------ | --------------- |
+| Microwave Engineering                         | 微波工程     | David M. Pozar  |
+| Introduction to Electromagnetic Compatibility | 电磁兼容导论 | Clayton R. Paul |
 
 ## 数学
 
@@ -52,7 +56,7 @@
 | ------------------------------------------------------------ | ------------------------------------------ | ----------- |
 | [Mathematics for Computer Science](Mathematics for Computer Science.pdf) | 计算机科学中的数学：信息与智能时代的必修课 | Eric Lehman |
 
-## 人工智能
+## 智能
 
 | 英文                                                         | 中文                                         | 作者            |
 | ------------------------------------------------------------ | -------------------------------------------- | --------------- |
