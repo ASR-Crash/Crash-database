@@ -16,6 +16,12 @@
             <!-- Modernizr JS -->
             <script src="js/modernizr-2.7.1.min.js"></script>
         </head>
+        
+        <!--hidden scrollbar-->
+        <style>
+    	body::-webkit-scrollbar {display: none;}
+    	</style>
+        
         <body>
             <!-- Page Loader -->
             <div class="page-loader"></div>
@@ -23,5 +29,4 @@
             <h1>ASR-Crash page content</h1>
         </body>
         </html>
-
 
