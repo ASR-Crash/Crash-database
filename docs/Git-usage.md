@@ -62,3 +62,20 @@
 > fatal: The current branch master has no upstream branch
 
 		git push -u origin master
+
+> fatal: Could not read from remote repository
+
+Local:
+
+		ssh-keygen -t rsa -C "youremail@example.com"
+		eval "$(ssh-agent -s)"
+		ssh-add ~/.ssh/id_rsa
+
+GitHub:
+
+		Settings–>SSH and GPG keys–>New SSH key
+		input code in: id_rsa.pub
+
+验证：
+
+		ssh -T git@github.com
