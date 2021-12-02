@@ -6,10 +6,12 @@ nav:
     - FFmpeg: FFmpeg-usage.md
     - Git: Git-usage.md
     - HTML: html-usage.md
+    - InteractiveHtmlBom: InteractiveHtmlBom-usage.md
     - Markdown: Markdown-usage.md
     - MkDocs: MkDocs-usage.md
     - PowerToys: PowerToys.md
     - Selenium: Selenium-usage.md
+    - XMind: XMind-usage.md
     - you-get: you-get-usage.md
 
 - Configuration:
@@ -22,4 +24,4 @@ nav:
     - Reference for Engineering: Reference-for-Engineering.md
 
 theme: readthedocs
-copyright: Copyright© 2020 ASR-Crash
+copyright: Copyright© 2021 ASR-Crash

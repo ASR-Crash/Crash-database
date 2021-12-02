@@ -30,3 +30,9 @@
         </body>
         </html>
 
+## 字体
+
+	<font face="STXINGKA">华文行楷</font>
+	
+	<font style="text-transform: lowercase;">lowercase</font>
+
