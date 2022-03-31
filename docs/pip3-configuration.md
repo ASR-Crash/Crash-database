@@ -53,3 +53,18 @@ pip换源
 	
 		[install]
 		trusted-host = https://pypi.tuna.tsinghua.edu.cn
+
+---
+
+## pip升级python库
+
+		pip list --outdated
+
+- 升级单个		
+
+		pip install --upgrade
+	
+- 批量升级
+
+		pip install pip-review
+		pip-review --local --interactive
