@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../ASR.ico">
+        
+        <title>Markdown - ASR-Crash database</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/darcula.min.css">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">ASR-Crash database</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Tools <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../cmd-usage/" class="dropdown-item">cmd</a>
+</li>
+                                    
+<li>
+    <a href="../FFmpeg-usage/" class="dropdown-item">FFmpeg</a>
+</li>
+                                    
+<li>
+    <a href="../Git-usage/" class="dropdown-item">Git</a>
+</li>
+                                    
+<li>
+    <a href="../html-usage/" class="dropdown-item">HTML</a>
+</li>
+                                    
+<li>
+    <a href="../InteractiveHtmlBom-usage/" class="dropdown-item">InteractiveHtmlBom</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Markdown</a>
+</li>
+                                    
+<li>
+    <a href="../MkDocs-usage/" class="dropdown-item">MkDocs</a>
+</li>
+                                    
+<li>
+    <a href="../OpenOCD-usage/" class="dropdown-item">OpenOCD</a>
+</li>
+                                    
+<li>
+    <a href="../PowerToys-usage/" class="dropdown-item">PowerToys</a>
+</li>
+                                    
+<li>
+    <a href="../Selenium-usage/" class="dropdown-item">Selenium</a>
+</li>
+                                    
+<li>
+    <a href="../XMind-usage/" class="dropdown-item">XMind</a>
+</li>
+                                    
+<li>
+    <a href="../you-get-usage/" class="dropdown-item">you-get</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Configuration <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../Cmder-configuration/" class="dropdown-item">Cmder</a>
+</li>
+                                    
+<li>
+    <a href="../pip3-configuration/" class="dropdown-item">pip3</a>
+</li>
+                                    
+<li>
+    <a href="../SSH-configuration/" class="dropdown-item">SSH</a>
+</li>
+                                    
+<li>
+    <a href="../Typora-to-bilibili-configuration/" class="dropdown-item">Typora to bilibili</a>
+</li>
+                                    
+<li>
+    <a href="../WSL-configuration/" class="dropdown-item">WSL</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Textbook <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../Reference-for-Engineering/" class="dropdown-item">Reference for Engineering</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../InteractiveHtmlBom-usage/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../MkDocs-usage/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#markdown" class="nav-link">Markdown使用</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#_1" class="nav-link">数学公式支持</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#_2" class="nav-link">数学符号</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#_3" class="nav-link">图片超链接</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#_4" class="nav-link">页内跳转</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#_5" class="nav-link">表格形式</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#_6" class="nav-link">上下划线</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="markdown">Markdown使用</h1>
+<script type="text/javascript"                                  
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-
+    MML_HTMLorMML"></script>
+
+<script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {inlineMath: [['$', '$']]},
+            messageStyle: "none"
+        });</script>
+
+<h2 id="_1">数学公式支持</h2>
+<pre><code>    &lt;script type="text/javascript"                                  
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-
+    MML_HTMLorMML"&gt;&lt;/script&gt;
+
+
+    &lt;script type="text/x-mathjax-config"&gt;
+        MathJax.Hub.Config({
+            tex2jax: {inlineMath: [['$', '$']]},
+            messageStyle: "none"
+        });
+    &lt;/script&gt;
+
+
+    行间公式：$$···$$
+    行内公式：$···$
+</code></pre>
+<h2 id="_2">数学符号</h2>
+<blockquote>
+<p>希腊字母</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Lowercase</th>
+<th>Uppercase</th>
+<th>English</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>$1$</td>
+<td>$\alpha$</td>
+<td>$A$</td>
+<td>$alpha$</td>
+</tr>
+<tr>
+<td>$2$</td>
+<td>$\beta$</td>
+<td>$B$</td>
+<td>$beta$</td>
+</tr>
+<tr>
+<td>$3$</td>
+<td>$\gamma$</td>
+<td>$\Gamma$</td>
+<td>$gamma$</td>
+</tr>
+<tr>
+<td>$4$</td>
+<td>$\delta$</td>
+<td>$\Delta$</td>
+<td>$delta$</td>
+</tr>
+<tr>
+<td>$5$</td>
+<td>$\epsilon$</td>
+<td>$E$</td>
+<td>$epsilon$</td>
+</tr>
+<tr>
+<td>$6$</td>
+<td>$\zeta$</td>
+<td>$Z$</td>
+<td>$zeta$</td>
+</tr>
+<tr>
+<td>$7$</td>
+<td>$\eta$</td>
+<td>$H$</td>
+<td>$eta$</td>
+</tr>
+<tr>
+<td>$8$</td>
+<td>$\theta$</td>
+<td>$\Theta$</td>
+<td>$theta$</td>
+</tr>
+<tr>
+<td>$9$</td>
+<td>$\iota$</td>
+<td>$I$</td>
+<td>$iota$</td>
+</tr>
+<tr>
+<td>$10$</td>
+<td>$\kappa$</td>
+<td>$K$</td>
+<td>$kappa$</td>
+</tr>
+<tr>
+<td>$11$</td>
+<td>$\lambda$</td>
+<td>$\lambda$</td>
+<td>$lambda$</td>
+</tr>
+<tr>
+<td>$12$</td>
+<td>$\mu$</td>
+<td>$M$</td>
+<td>$mu$</td>
+</tr>
+<tr>
+<td>$13$</td>
+<td>$\nu$</td>
+<td>$N$</td>
+<td>$nu$</td>
+</tr>
+<tr>
+<td>$14$</td>
+<td>$\xi$</td>
+<td>$\Xi$</td>
+<td>$xi$</td>
+</tr>
+<tr>
+<td>$15$</td>
+<td>$\omicron$</td>
+<td>$O$</td>
+<td>$omicron$</td>
+</tr>
+<tr>
+<td>$16$</td>
+<td>$\pi$</td>
+<td>$\Pi$</td>
+<td>$pi$</td>
+</tr>
+<tr>
+<td>$17$</td>
+<td>$\rho$</td>
+<td>$P$</td>
+<td>$rho$</td>
+</tr>
+<tr>
+<td>$18$</td>
+<td>$\sigma$</td>
+<td>$\Sigma$</td>
+<td>$sigma$</td>
+</tr>
+<tr>
+<td>$19$</td>
+<td>$\tau$</td>
+<td>$T$</td>
+<td>$tau$</td>
+</tr>
+<tr>
+<td>$20$</td>
+<td>$\upsilon$</td>
+<td>$\Upsilon$</td>
+<td>$upsilon$</td>
+</tr>
+<tr>
+<td>$21$</td>
+<td>$\phi$</td>
+<td>$\Phi$</td>
+<td>$phi$</td>
+</tr>
+<tr>
+<td>$22$</td>
+<td>$\chi$</td>
+<td>$X$</td>
+<td>$chi$</td>
+</tr>
+<tr>
+<td>$23$</td>
+<td>$\psi$</td>
+<td>$\Psi$</td>
+<td>$psi$</td>
+</tr>
+<tr>
+<td>$24$</td>
+<td>$\omega$</td>
+<td>$\Omega$</td>
+<td>$omega$</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>关系运算符</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>symbol</th>
+<th>code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>±</td>
+<td>\pm</td>
+</tr>
+<tr>
+<td>×</td>
+<td>\times</td>
+</tr>
+<tr>
+<td>÷</td>
+<td>\div</td>
+</tr>
+<tr>
+<td>∣</td>
+<td>\mid</td>
+</tr>
+<tr>
+<td>∤</td>
+<td>\nmid</td>
+</tr>
+<tr>
+<td>⋅</td>
+<td>\cdot</td>
+</tr>
+<tr>
+<td>∗</td>
+<td>\ast</td>
+</tr>
+<tr>
+<td>≤</td>
+<td>\leq</td>
+</tr>
+<tr>
+<td>≥</td>
+<td>\geq</td>
+</tr>
+<tr>
+<td>≠</td>
+<td>\neq</td>
+</tr>
+<tr>
+<td>≈</td>
+<td>\approx</td>
+</tr>
+<tr>
+<td>≡</td>
+<td>\equiv</td>
+</tr>
+<tr>
+<td>∑</td>
+<td>\sum</td>
+</tr>
+<tr>
+<td>∏</td>
+<td>\prod</td>
+</tr>
+<tr>
+<td>≜</td>
+<td>\triangleq</td>
+</tr>
+<tr>
+<td>⇔</td>
+<td>\iff</td>
+</tr>
+<tr>
+<td>≌</td>
+<td>\cong</td>
+</tr>
+<tr>
+<td></td>
+<td>\vec a</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_3">图片超链接</h2>
+<p><a href="https://crash-database.readthedocs.io/en/master/"><img src="https://img1.wenhairu.com/images/2020/10/11/CkiRP.png"></a></p>
+<pre><code>    &lt;a href="[target-url]"&gt;&lt;img src="[image-url]"&gt;&lt;/a&gt;
+</code></pre>
+<h2 id="_4">页内跳转</h2>
+<p><a href="#Crash">Index-name</a>
+<a name='Crash'>Target-name</a></p>
+<pre><code>    [Index-name](#Crash)
+    &lt;a name='Crash'&gt;Target-name&lt;/a&gt;
+</code></pre>
+<h2 id="_5">表格形式</h2>
+<table>
+    <tr>
+        <td><img src='Crash logo special.png'>
+        <td><img src='Crash logo special.png'>
+        </td>
+    <tr>
+        <td><img src='Crash logo special.png'>
+        <td><img src='Crash logo special.png'>
+        </td>
+    </tr>
+</table>
+
+<pre><code>    &lt;table&gt;
+        &lt;tr&gt;
+            &lt;td&gt;&lt;···&gt;
+            &lt;/td&gt;&lt;···&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+</code></pre>
+<h2 id="_6">上下划线</h2>
+<pre><code>    $\underline{\text{下划线}}$
+    &lt;u&gt;下划线&lt;/u&gt;
+
+
+    $\overline{\text{上划线}}$
+</code></pre></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright© 2022 Crash, Alliance of Science Research. <img src='https://xmu-rm-hwsd-um.readthedocs.io/en/latest/img/ASR-WS.png' width='64'> |&nbsp; <img src='https://xmu-rm-hwsd-um.readthedocs.io/en/latest/img/Crash-precision.png' width='160'></p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
