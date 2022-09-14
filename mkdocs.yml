@@ -9,7 +9,8 @@ nav:
     - InteractiveHtmlBom: InteractiveHtmlBom-usage.md
     - Markdown: Markdown-usage.md
     - MkDocs: MkDocs-usage.md
-    - PowerToys: PowerToys.md
+    - OpenOCD: OpenOCD-usage.md
+    - PowerToys: PowerToys-usage.md
     - Selenium: Selenium-usage.md
     - XMind: XMind-usage.md
     - you-get: you-get-usage.md
@@ -18,10 +19,11 @@ nav:
     - Cmder: Cmder-configuration.md
     - pip3: pip3-configuration.md
     - SSH: SSH-configuration.md
+    - Typora to bilibili: Typora-to-bilibili-configuration.md
     - WSL: WSL-configuration.md
 
 - Textbook:
     - Reference for Engineering: Reference-for-Engineering.md
 
-theme: readthedocs
-copyright: Copyright© 2021 ASR-Crash
+theme: Cyborg
+copyright: Copyright© 2022 Crash, Alliance of Science Research. <img src='https://xmu-rm-hwsd-um.readthedocs.io/en/latest/img/ASR-WS.png' width='64'> |&nbsp; <img src='https://xmu-rm-hwsd-um.readthedocs.io/en/latest/img/Crash-precision.png' width='160'> 

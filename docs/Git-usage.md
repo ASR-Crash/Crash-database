@@ -79,3 +79,8 @@ GitHub:
 验证：
 
 		ssh -T git@github.com
+
+Failed to connect to github.com port 443 after 21098 ms: Timed out：
+
+		git config --global https.proxy
+		git config --global --unset https.proxy
