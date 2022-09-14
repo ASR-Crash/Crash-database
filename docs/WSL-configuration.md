@@ -1,17 +1,17 @@
-# Windows Subsystem for Linux
+## Windows Subsystem for Linux
 
-# Part A 安装WSL
+## Part A 安装WSL
 
-## 选择开发人员模式
+### 选择开发人员模式
 
 ![WSL-developermode](WSL-developermode.png)
 
-## 启用WSL功能
+### 启用WSL功能
 		控制面板->程序->启用或关闭Windows功能
 
 ![WSL-enable](WSL-enable.png)
 
-## 换源
+### 换源
 
 中科大源：
 
@@ -32,10 +32,10 @@ deb https://mirrors.ustc.edu.cn/ubuntu/ xenial-security main restricted universe
 
 		sudo apt-get update
 
-## 系统位置
+### 系统位置
 	C:\Users\Crash\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs
 
-## 挂载U盘
+### 挂载U盘
 
 新建挂载点（只需要新建一次）：
 
@@ -51,7 +51,7 @@ deb https://mirrors.ustc.edu.cn/ubuntu/ xenial-security main restricted universe
 
 ---
 
-# PART B 安装图形化界面
+## PART B 安装图形化界面
 
 1、安装xfce4
 

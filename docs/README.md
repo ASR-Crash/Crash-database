@@ -19,7 +19,9 @@
 ## Configuration
 
 - [Cmder](Cmder-configuration.md)
+- [iPad to PC](iPad-to-PC-configuration.md)
 - [pip3](pip3-configuration.md)
+- [RaspberryPi](RaspberryPi-configuration.md)
 - [SSH](SSH-configuration.md)
 - [Typora to bilibili](Typora-to-bilibili-configuration.md)
 - [WSL](WSL-configuration.md)

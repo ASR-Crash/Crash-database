@@ -1,4 +1,4 @@
-# InteractiveHtmlBom使用
+## InteractiveHtmlBom使用
 
 - AD另存为 PCB ASCII File
 - 立创EDA导入 PCB ASCII File

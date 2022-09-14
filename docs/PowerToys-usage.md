@@ -1,30 +1,30 @@
-# PowerToys Usage
+## PowerToys Usage
 
-## 始终置顶
+### 始终置顶
 
 		Win+Ctrl+T
 
-## Color Picker
+### Color Picker
 
 		Win+Shift+C
 
-## FancyZones
+### FancyZones
 
 		Win+`
 
-## PowerToys Run
+### PowerToys Run
 
 		Alt+Space
 
-## 屏幕标尺
+### 屏幕标尺
 
 		Win+Shift+M
 
-## Shortcut Guide
+### Shortcut Guide
 
 		Win+Shift+/
 
-## 文本提取器
+### 文本提取器
 
 		Win+Shift+T
 

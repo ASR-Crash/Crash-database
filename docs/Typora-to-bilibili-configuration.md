@@ -1,4 +1,4 @@
-# Typora-to-bilibili-configuration
+## Typora-to-bilibili-configuration
 
 插件来源：[typora-plugin-bilibili: Typora粘贴图片自动上传到Bilibili图床](https://github.com/xlzy520/typora-plugin-bilibili)
 

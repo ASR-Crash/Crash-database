@@ -1,18 +1,18 @@
-# Cmder
+## Cmder
 
 
-## 安装
+### 安装
 [Cmder | Console Emulator](https://cmder.app/)
 
 在环境变量添加Cmder.exe的路径
 
-## 右键配置
+### 右键配置
 
 管理员身份打开cmd：
 
 		Cmder.exe /REGISTER ALL
 
-## 更改命令行
+### 更改命令行
 
 打开Setting：
 
@@ -24,7 +24,7 @@
 
 ![Cmder-startup](Cmder-startup.png)
 
-## 修改命令提示符
+### 修改命令提示符
 路径：
 
 		cmder\vendor\clink.lua
@@ -35,7 +35,7 @@
 
 ![Cmder-prompt](Cmder-prompt.png)
 
-## 快捷键
+### 快捷键
 
 		Ctrl+T：新页签
 		Ctrl+W：关闭页签

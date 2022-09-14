@@ -17,7 +17,9 @@ nav:
 
 - Configuration:
     - Cmder: Cmder-configuration.md
+    - iPad to PC: iPad-to-PC-configuration.md   
     - pip3: pip3-configuration.md
+    - RaspberryPi: RaspberryPi-configuration.md
     - SSH: SSH-configuration.md
     - Typora to bilibili: Typora-to-bilibili-configuration.md
     - WSL: WSL-configuration.md
@@ -26,4 +28,4 @@ nav:
     - Reference for Engineering: Reference-for-Engineering.md
 
 theme: cyborg
-copyright: Copyright© 2022 Crash, Alliance of Science Research. <img src='https://xmu-rm-hwsd-um.readthedocs.io/en/latest/img/ASR-WS.png' width='64'> |&nbsp; <img src='https://xmu-rm-hwsd-um.readthedocs.io/en/latest/img/Crash-precision.png' width='160'> 
+copyright: Copyright© 2022 Crash, Alliance of Science Research. <img src='https://asr-crash.github.io/Crash-database/logo/ASR-WS.png' width='64'> |&nbsp; <img src='https://asr-crash.github.io/Crash-database/logo/Crash-WS.png' width='160'> 

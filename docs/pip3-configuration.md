@@ -1,7 +1,6 @@
-# pip3安装
+## pip3安装
 
-Windows
-----
+### Windows
 
 https://bootstrap.pypa.io/get-pip.py
 
@@ -11,8 +10,7 @@ cmd执行：
 
 		python get-pip.py
 
-Linux
-----
+### Linux
 安装：
 
 		sudo apt install python3-pip 
@@ -21,8 +19,7 @@ Linux
 
 		sudo pip3 install --upgrade pip
 
-pip换源
-----
+## pip换源
 
 单次使用：
 

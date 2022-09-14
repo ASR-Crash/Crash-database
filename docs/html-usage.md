@@ -1,6 +1,6 @@
-# HTML使用
+## HTML使用
 
-## html结构
+### html结构
 
         <!doctype html>
         <head>
@@ -30,7 +30,7 @@
         </body>
         </html>
 
-## 字体
+### 字体
 
 	<font face="STXINGKA">华文行楷</font>
 	

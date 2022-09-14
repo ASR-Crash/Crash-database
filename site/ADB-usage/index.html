@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../ASR.ico">
         
-        <title>MkDocs - ASR-Crash database</title>
+        <title>ADB usage - ASR-Crash database</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -34,7 +34,7 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Tools <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
@@ -63,7 +63,7 @@
 </li>
                                     
 <li>
-    <a href="./" class="dropdown-item active">MkDocs</a>
+    <a href="../MkDocs-usage/" class="dropdown-item">MkDocs</a>
 </li>
                                     
 <li>
@@ -137,16 +137,6 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li class="nav-item">
-                                <a rel="prev" href="../Markdown-usage/" class="nav-link">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a rel="next" href="../OpenOCD-usage/" class="nav-link">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
                     </ul>
                 </div>
             </div>
@@ -165,7 +155,7 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="2"><a href="#mkdocs" class="nav-link">MkDocs使用</a>
+            <li class="nav-item" data-level="2"><a href="#adbandroid" class="nav-link">ADB（Android调试桥）</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -174,45 +164,28 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h2 id="mkdocs">MkDocs使用</h2>
-<blockquote>
-<p>Installing</p>
-</blockquote>
-<pre><code>    pip install mkdocs
+<h2 id="adbandroid">ADB（Android调试桥）</h2>
+<h3 id="_1">卸载安卓系统软件</h3>
+<ol>
+<li>多次快速点击版本号，进入开发者模式</li>
+<li>进入开发人员选项，开启USB调试，USB弹出提示，监控ADB安装应用，仅充电下允许ADB调试</li>
+<li>下载ADB Kits <a href="https://adbshell.com/downloads">Downloads - ADB Shell</a></li>
+<li>通过cmd打开adb.exe，手机连接到电脑</li>
+<li>输入 adb device 查看 list of devices attached 是否有device</li>
+<li>
+<p>输入adb shell 进入调试</p>
+<pre><code>pm list packages -s  #system apps
+pm list packages -3  #third-party apps
+pm uninstall -k --user 0 &lt;name of package&gt;
+
+for example:
+pm uninstall -k --user 0 com.android.mediacenter
 </code></pre>
-<blockquote>
-<p>Check Version</p>
-</blockquote>
-<pre><code>    mkdocs --version
-</code></pre>
-<blockquote>
-<p>Commands</p>
-</blockquote>
-<pre><code>    mkdocs new [dir-name] # Create a new project.
-    mkdocs serve          # Start local server.
-    mkdocs build          # Build document site.
-    mkdocs gh-deploy      # Deploy HTML in gh-pages
-</code></pre>
-<blockquote>
-<p>Layout</p>
-</blockquote>
-<pre><code>    mkdocs.yml    # The configuration file.
-    docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre>
-<blockquote>
-<p>yml settings</p>
-</blockquote>
-<pre><code>    site_name: [title]
-    site_url: [url]
-    site_author: Crash
-    site_favicon: favicon.ico
-    theme: readthedocs
-    copyright: Copyright© 2020 ASR-Crash
-    nav:
-    - [entry1]: [file.md /'url']
-</code></pre></div>
+</li>
+<li>
+<p>done！</p>
+</li>
+</ol></div>
             </div>
         </div>
 
