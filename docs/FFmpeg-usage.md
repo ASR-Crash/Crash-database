@@ -7,8 +7,6 @@
   https://www.ffmpeg.org/download.html
   https://ffmpeg.zeranoe.com/builds/ 
 
-  or [ffmpeg-20200513-b12b053-win64-static.zip](ffmpeg-20200513-b12b053-win64-static.zip) 
-
 - 配置
 
 

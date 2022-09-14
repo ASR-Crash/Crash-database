@@ -2,10 +2,7 @@
 
 
 ## 安装
-https://cmder.net/
-
-
-Unzip：[cmder_mini.zip](cmder_mini.zip) 
+[Cmder | Console Emulator](https://cmder.app/)
 
 在环境变量添加Cmder.exe的路径
 
