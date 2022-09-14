@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../ASR.ico">
         
-        <title>MkDocs - ASR-Crash database</title>
+        <title>RaspberryPi - ASR-Crash database</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -34,7 +34,7 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Tools <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
@@ -63,7 +63,7 @@
 </li>
                                     
 <li>
-    <a href="./" class="dropdown-item active">MkDocs</a>
+    <a href="../MkDocs-usage/" class="dropdown-item">MkDocs</a>
 </li>
                                     
 <li>
@@ -87,7 +87,7 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Configuration <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
@@ -104,7 +104,7 @@
 </li>
                                     
 <li>
-    <a href="../RaspberryPi-configuration/" class="dropdown-item">RaspberryPi</a>
+    <a href="./" class="dropdown-item active">RaspberryPi</a>
 </li>
                                     
 <li>
@@ -138,12 +138,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../Markdown-usage/" class="nav-link">
+                                <a rel="prev" href="../pip3-configuration/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../OpenOCD-usage/" class="nav-link">
+                                <a rel="next" href="../SSH-configuration/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -165,7 +165,7 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="2"><a href="#mkdocs" class="nav-link">MkDocs使用</a>
+            <li class="nav-item" data-level="2"><a href="#_1" class="nav-link">树莓派配置</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -174,44 +174,71 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h2 id="mkdocs">MkDocs使用</h2>
-<blockquote>
-<p>Installing</p>
-</blockquote>
-<pre><code>    pip install mkdocs
+<h2 id="_1">树莓派配置</h2>
+<p>打开终端</p>
+<pre><code>Ctrl+Alt+t
 </code></pre>
-<blockquote>
-<p>Check Version</p>
-</blockquote>
-<pre><code>    mkdocs --version
+<p>打开配置</p>
+<pre><code>sudo raspi-config
 </code></pre>
-<blockquote>
-<p>Commands</p>
-</blockquote>
-<pre><code>    mkdocs new [dir-name] # Create a new project.
-    mkdocs serve          # Start local server.
-    mkdocs build          # Build document site.
-    mkdocs gh-deploy      # Deploy HTML in gh-pages
+<p>关机/重启</p>
+<pre><code>shutdown -h -t 0
+sudo reboot
 </code></pre>
-<blockquote>
-<p>Layout</p>
-</blockquote>
-<pre><code>    mkdocs.yml    # The configuration file.
-    docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
+<p>更新</p>
+<pre><code>sudo apt-get update
+sudo apt-get upgrade
 </code></pre>
-<blockquote>
-<p>yml settings</p>
-</blockquote>
-<pre><code>    site_name: [title]
-    site_url: [url]
-    site_author: Crash
-    site_favicon: favicon.ico
-    theme: readthedocs
-    copyright: Copyright© 2020 ASR-Crash
-    nav:
-    - [entry1]: [file.md /'url']
+<p>自启动程序配置：</p>
+<ol>
+<li>
+<p>在/home/pi/.config文件夹里新建autostart文件夹（已有可忽略）</p>
+<pre><code>pi@raspberry:~ $ mkdir .config/autostart
+</code></pre>
+</li>
+<li>
+<p>在autostart里新建desktop文件（名字随意，后缀必须为.desktop)</p>
+<pre><code>pi@raspberry:~ $ nano .config/autostart/testboot.desktop
+</code></pre>
+</li>
+<li>
+<p>desktop文件内容</p>
+<pre><code>[Desktop Entry]
+Type=Application
+Exec=/home/pi/... （指定文件的全部途径）
+</code></pre>
+</li>
+</ol>
+<p>开启ssh</p>
+<pre><code>sudo systemctl enable ssh 
+sudo systemctl start ssh
+</code></pre>
+<p>查看IP</p>
+<pre><code>hostname -I
+</code></pre>
+<p>检测USB设备</p>
+<pre><code>lsusb
+</code></pre>
+<p>查看摄像头设备文件</p>
+<pre><code>ls/dev/video*
+</code></pre>
+<p>视频VNC界面</p>
+<pre><code>sudo apt-get install luvcview
+luvcview -s 1920X1080
+</code></pre>
+<p>远程桌面</p>
+<pre><code>sudo apt-get install xrdp
+sudo service xrdp restart
+ifconfig
+</code></pre>
+<p>获取温度</p>
+<pre><code>cd /sys/class/thermal/thermal_zone0
+cat temp
+</code></pre>
+<p>取消鼠标显示</p>
+<pre><code>sudo nano /etc/lightdm/lightdm.conf 
+#xserver-command=X 修改为：
+xserver-command=X -bs -core -nocursor
 </code></pre></div>
             </div>
         </div>

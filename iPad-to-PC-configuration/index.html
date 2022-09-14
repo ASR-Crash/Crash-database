@@ -9,7 +9,7 @@
         
         <link rel="shortcut icon" href="../ASR.ico">
         
-        <title>MkDocs - ASR-Crash database</title>
+        <title>iPad to PC - ASR-Crash database</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -34,7 +34,7 @@
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Tools <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
@@ -63,7 +63,7 @@
 </li>
                                     
 <li>
-    <a href="./" class="dropdown-item active">MkDocs</a>
+    <a href="../MkDocs-usage/" class="dropdown-item">MkDocs</a>
 </li>
                                     
 <li>
@@ -87,7 +87,7 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Configuration <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
@@ -96,7 +96,7 @@
 </li>
                                     
 <li>
-    <a href="../iPad-to-PC-configuration/" class="dropdown-item">iPad to PC</a>
+    <a href="./" class="dropdown-item active">iPad to PC</a>
 </li>
                                     
 <li>
@@ -138,12 +138,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../Markdown-usage/" class="nav-link">
+                                <a rel="prev" href="../Cmder-configuration/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../OpenOCD-usage/" class="nav-link">
+                                <a rel="next" href="../pip3-configuration/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -165,7 +165,7 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="2"><a href="#mkdocs" class="nav-link">MkDocs使用</a>
+            <li class="nav-item" data-level="2"><a href="#ipad" class="nav-link">ipad电脑互传文件</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -174,45 +174,22 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h2 id="mkdocs">MkDocs使用</h2>
-<blockquote>
-<p>Installing</p>
-</blockquote>
-<pre><code>    pip install mkdocs
-</code></pre>
-<blockquote>
-<p>Check Version</p>
-</blockquote>
-<pre><code>    mkdocs --version
-</code></pre>
-<blockquote>
-<p>Commands</p>
-</blockquote>
-<pre><code>    mkdocs new [dir-name] # Create a new project.
-    mkdocs serve          # Start local server.
-    mkdocs build          # Build document site.
-    mkdocs gh-deploy      # Deploy HTML in gh-pages
-</code></pre>
-<blockquote>
-<p>Layout</p>
-</blockquote>
-<pre><code>    mkdocs.yml    # The configuration file.
-    docs/
-    index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
-</code></pre>
-<blockquote>
-<p>yml settings</p>
-</blockquote>
-<pre><code>    site_name: [title]
-    site_url: [url]
-    site_author: Crash
-    site_favicon: favicon.ico
-    theme: readthedocs
-    copyright: Copyright© 2020 ASR-Crash
-    nav:
-    - [entry1]: [file.md /'url']
-</code></pre></div>
+<h2 id="ipad">ipad电脑互传文件</h2>
+<h3 id="_1">电脑端</h3>
+<ol>
+<li>右键需要共享的文件夹</li>
+<li>属性-&gt;共享-&gt;高级共享-&gt;共享此文件夹</li>
+<li>权限-&gt;完全控制</li>
+<li>属性-&gt;共享-&gt;共享-&gt;Everyone-&gt;添加</li>
+<li>ipconfig</li>
+<li>查看IPv4地址和用户名</li>
+</ol>
+<h3 id="ipad_1">iPad端</h3>
+<ol>
+<li>文件-&gt; (···) -&gt;连接服务器</li>
+<li>输入 smb://[IPv4地址]-&gt;连接</li>
+<li>输入用户名和密码</li>
+</ol></div>
             </div>
         </div>
 
