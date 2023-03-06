@@ -1,4 +1,4 @@
-site_name: ASR-Crash database
+site_name: ASR-Crash Shared Database
 site_favicon: ASR.ico
 nav:
 - Tools: 
@@ -25,7 +25,8 @@ nav:
     - WSL: WSL-configuration.md
 
 - Textbook:
+    - Link for FOSS: Link-for-FOSS.md
     - Reference for Engineering: Reference-for-Engineering.md
 
 theme: cyborg
-copyright: Copyright© 2022 Crash, Alliance of Science Research. <img src='https://asr-crash.github.io/Crash-database/logo/ASR-WS.png' width='64'> |&nbsp; <img src='https://asr-crash.github.io/Crash-database/logo/Crash-WS.png' width='160'> 
+copyright: Copyright© 2023 Crash, Alliance of Science Research. <img src='https://asr-crash.github.io/Crash-database/logo/ASR-WS.png' width='64'> |&nbsp; <img src='https://asr-crash.github.io/Crash-database/logo/Crash-WS.png' width='160'> 
