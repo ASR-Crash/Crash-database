@@ -20,6 +20,8 @@
 
 [FFmpeg](https://ffmpeg.org/)
 
+[calibre - 电子书管理 (calibre-ebook.com)](https://www.calibre-ebook.com/zh_CN)
+
 [microsoft/vscode: Visual Studio Code (github.com)](https://github.com/microsoft/vscode)
 
 [microsoft/PowerToys: Windows system utilities to maximize productivity (github.com)](https://github.com/microsoft/PowerToys)
